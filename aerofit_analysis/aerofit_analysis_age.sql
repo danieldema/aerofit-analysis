@@ -44,36 +44,44 @@ WHERE 40 <= Age AND Age <= 50;
 --"count"
 --  17
 
-SELECT ROUND(AVG(Age), 2), PERCENTILE_CONT(0.5) 
-WITHIN GROUP (Order By Age) 
+SELECT ROUND(AVG(Age), 2) AS mean,
+PERCENTILE_CONT(0.5) 
+WITHIN GROUP (Order By Age)
+AS median
 FROM Aerofit;
 
---"round"	"percentile_cont"
--- 28.79	        26
+--"mean"	    "median"
+-- 28.79	       26
 
-SELECT ROUND(AVG(Age), 2), PERCENTILE_CONT(0.5) 
+SELECT ROUND(AVG(Age), 2) AS mean,
+PERCENTILE_CONT(0.5)
 WITHIN GROUP (Order By Age) 
+AS median
 FROM Aerofit 
 WHERE Product = 'KP281';
 
---"round"	"percentile_cont"
--- 28.55	        26
+--"mean"	    "median"
+-- 28.55	       26
 
-SELECT ROUND(AVG(Age), 2), PERCENTILE_CONT(0.5) 
-WITHIN GROUP (Order By Age) 
+SELECT ROUND(AVG(Age), 2) AS mean,
+PERCENTILE_CONT(0.5)
+WITHIN GROUP (Order By Age)
+AS median
 FROM Aerofit 
 WHERE Product = 'KP481';
 
---"round"	"percentile_cont"
--- 28.90	        26
+--"mean"	    "median"
+-- 28.90	       26
 
-SELECT ROUND(AVG(Age), 2), PERCENTILE_CONT(0.5) 
-WITHIN GROUP (Order By Age) 
-FROM Aerofit 
+SELECT ROUND(AVG(Age), 2) AS mean,
+PERCENTILE_CONT(0.5) 
+WITHIN GROUP (Order By Age)
+AS median
+FROM Aerofit
 WHERE Product = 'KP781';
 
---"round"	"percentile_cont"
--- 29.10	        27
+--"mean"	    "median"
+-- 29.10	       26
 
 SELECT COUNT(*)
 FROM Aerofit
