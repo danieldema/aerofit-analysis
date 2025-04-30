@@ -7,7 +7,7 @@ FROM Aerofit;
 -- min
 -- 29562
 
-SELECT MIN(Income)
+SELECT MAX(Income)
 FROM Aerofit;
 
 -- max
