@@ -86,36 +86,6 @@ Raw Data → PostgreSQL → SQL Analysis → Excel Processing → Python Visuali
 └── README.md                             # Project documentation
 ```
 
-## Methodology
-
-### Data Pipeline
-1. **Data Import**: Loading Aerofit dataset into PostgreSQL
-2. **Data Cleaning**: Quality assurance and missing value handling
-3. **Exploratory Analysis**: Initial statistical overview
-4. **Segmentation Analysis**: Customer group identification
-5. **Visualization Creation**: Insight communication
-6. **Business Recommendations**: Strategic insight development
-
-### Quality Assurance
-- **Data Validation**: Comprehensive checks for data integrity
-- **Statistical Verification**: Cross-validation of analytical results
-- **Visualization Review**: Accuracy and clarity of charts
-- **Insight Validation**: Business logic verification
-
-## Business Impact & Recommendations
-
-### Marketing Strategy Insights
-- **Targeted Campaigns**: Demographic-specific marketing approaches
-- **Product Positioning**: Feature emphasis by customer segment
-- **Pricing Strategy**: Income-based pricing optimization
-- **Channel Strategy**: Age-appropriate marketing channels
-
-### Product Development Implications
-- **Feature Prioritization**: Customer-driven development roadmap
-- **Market Gap Analysis**: Underserved customer segments
-- **Competitive Positioning**: Strength analysis by segment
-- **Innovation Opportunities**: Emerging customer needs identification
-
 ## Technical Skills Demonstrated
 
 - **SQL Proficiency**: Complex query development and database optimization
