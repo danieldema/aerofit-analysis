@@ -18,8 +18,7 @@ Raw Data → PostgreSQL → SQL Analysis → Excel Processing → Python Visuali
 - PostgreSQL (advanced SQL queries and data aggregation)
 
 **Data Processing & Analysis:**
-- Excel (contingency table creation and statistical analysis)
-- Data validation and quality assurance
+- Excel (contingency table creation)
 
 **Visualization & Reporting:**
 - Python (Matplotlib for advanced visualizations)
