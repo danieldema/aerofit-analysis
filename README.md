@@ -6,12 +6,6 @@ A comprehensive data analysis project examining customer purchasing patterns and
 
 This project analyzes Aerofit's treadmill sales data to uncover customer segmentation patterns and product preferences based on demographic and fitness characteristics. Through advanced SQL queries, statistical analysis, and interactive visualizations, the project provides actionable insights for marketing strategy and product positioning.
 
-### Key Achievements
-- **Customer Segmentation Analysis** - Identified distinct customer profiles for each treadmill model
-- **Statistical Insights** - Comprehensive contingency table analysis of customer characteristics
-- **Data-Driven Recommendations** - Strategic insights for targeted marketing campaigns
-- **Multi-Tool Integration** - Seamless workflow combining SQL, Excel, and Python visualization
-
 ## Architecture
 
 ```
@@ -85,14 +79,6 @@ Raw Data → PostgreSQL → SQL Analysis → Excel Processing → Python Visuali
 ├── aerofit_graphs/                       # Generated charts and insights
 └── README.md                             # Project documentation
 ```
-
-## Technical Skills Demonstrated
-
-- **SQL Proficiency**: Complex query development and database optimization
-- **Data Visualization**: Professional chart creation and design principles
-- **Business Analytics**: Translation of data insights into strategic recommendations
-- **Multi-Tool Integration**: Seamless workflow across different platforms
-- **Project Management**: End-to-end analytical project execution
 
 ---
 
