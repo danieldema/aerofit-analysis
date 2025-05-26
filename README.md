@@ -38,7 +38,6 @@ Raw Data → PostgreSQL → SQL Analysis → Excel Processing → Python Visuali
 ### SQL Data Exploration
 - **Customer Profiling**: Demographic analysis across product lines
 - **Statistical Aggregations**: Mean, median, and distribution analysis
-- **Cross-Tabulation Queries**: Customer characteristic correlations
 
 ### Statistical Analysis
 - **Contingency Table Creation**: Cross-classification of customer attributes
