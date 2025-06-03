@@ -1,6 +1,6 @@
 # Aerofit Treadmill Sales Analysis
 
-A comprehensive data analysis project examining customer purchasing patterns and product preferences for Aerofit treadmill sales using SQL, statistical analysis, and data visualization techniques.
+An in-depth exploration of customer purchasing patterns and product preferences for Aerofit treadmill sales, utilizing SQL queries and compelling data visualizations.
 
 ## Project Overview
 
