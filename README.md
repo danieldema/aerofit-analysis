@@ -1,51 +1,19 @@
 # Aerofit Treadmill Sales Analysis
 
-An in-depth exploration of customer purchasing patterns and product preferences for Aerofit treadmill sales, utilizing SQL queries and compelling data visualizations.
+An in-depth exploration of customer purchasing patterns and product preferences for Aerofit treadmill sales, utilizing SQL queries and data visualization.
 
 ## Project Overview
 
-This project analyzes Aerofit's treadmill sales data to uncover customer segmentation patterns and product preferences based on demographic and fitness characteristics. Through advanced SQL queries, statistical analysis, and interactive visualizations, the project provides actionable insights for marketing strategy and product positioning.
+This project analyzes Aerofit's treadmill sales data to uncover customer product preferences based on demographic and fitness characteristics. The analysis provides actionable insights for marketing strategies.
 
-## Architecture
-
-```
-Raw Data → PostgreSQL → SQL Analysis → Excel Processing → Python Visualization → Business Insights
-```
-
-## Technology Stack
+## Tech Stack
 
 **Database & Querying:**
-- PostgreSQL (advanced SQL queries and data aggregation)
-
-**Data Processing & Analysis:**
-- Excel (contingency table creation)
+- PostgreSQL
 
 **Visualization & Reporting:**
-- Python (Matplotlib for advanced visualizations)
-
-## Dataset Overview
-
-**Data Source**: [Aerofit Treadmill Sales Dataset](https://github.com/J-Data-Guy/Aerofit_Project/tree/main)
-
-**Key Variables Analyzed:**
-- Customer demographics (age, gender, income)
-- Fitness characteristics (usage frequency, fitness level)
-- Product preferences (KP281, KP481, KP781 models)
-- Purchase behavior patterns
-
-## Analysis Framework
-
-### SQL Data Exploration
-- **Customer Profiling**: Demographic analysis across product lines
-- **Statistical Aggregations**: Mean, median, and distribution analysis
-
-### Statistical Analysis
-- **Contingency Table Creation**: Cross-classification of customer attributes
-
-### Data Visualization
-- **Customer Segment Profiles**: Visual representation of target demographics
-- **Product Preference Charts**: Distribution analysis across treadmill models
-- **Age Group Analysis**: Generational preference trends
+- Excel (contingency table creation)
+- Python (Matplotlib)
 
 ## Key Findings & Business Insights
 
@@ -77,11 +45,3 @@ Raw Data → PostgreSQL → SQL Analysis → Excel Processing → Python Visuali
 ├── aerofit_graphs/                       # Generated charts and insights
 └── README.md                             # Project documentation
 ```
-
----
-
-**Contact**: [https://www.linkedin.com/in/danieldema/] | [danieldema42@gmail.com]
-
-**Repository**: [https://github.com/danieldema/aerofit-analysis]
-
-**Data Source**: [Original Aerofit Dataset](https://github.com/J-Data-Guy/Aerofit_Project/tree/main)
