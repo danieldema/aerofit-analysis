@@ -42,6 +42,6 @@ This project analyzes Aerofit's treadmill sales data to uncover customer product
 ```
 ├── aerofit_analysis/                     # PostgreSQL analysis scripts
 ├── aerofit_contingency_tables/           # Contingency tables
-├── aerofit_graphs/                       # Generated charts and insights
+├── aerofit_graphs/                       # Charts and insights
 └── README.md                             # Project documentation
 ```
